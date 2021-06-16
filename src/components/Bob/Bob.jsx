@@ -6,6 +6,7 @@ const Bob = () => {
         <>
             <div className={classes.title}>
                 <h1>Hello, I am Bob</h1>
+                <h1>This is the second push</h1>
             </div>
         </>
     )
