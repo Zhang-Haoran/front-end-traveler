@@ -1,5 +1,5 @@
 import { Title } from "../styles";
 const Kyrie = () => {
-  return <Title>Hello from Kyrie Wen and this is a test for sourceTree</Title>;
+  return <Title>Hello from Kyrie Wen</Title>;
 };
 export default Kyrie;
