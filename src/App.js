@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import HaoranPage from "./pages/HaoranPage/HaoranPage";
 import KyriePage from './pages/KyriePage/KyriePage';
+import BobPage from './pages/BobPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/haoran" exact component={HaoranPage} />
         <Route path="/kyrie" exact component={KyriePage} />
+        <Route path="/Bob" exact component={BobPage} />
         {/* <Route path="/yang" exact component={Yang}/>  */}
         <Route component={ErrorPage} />
       </Switch>
