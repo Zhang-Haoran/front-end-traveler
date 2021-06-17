@@ -6,6 +6,7 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import HaoranPage from "./pages/HaoranPage/HaoranPage";
 import KyriePage from './pages/KyriePage/KyriePage';
 import BobPage from './pages/BobPage';
+import YangPage from './pages/YangPage/YangPage';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
         <Route path="/haoran" exact component={HaoranPage} />
         <Route path="/kyrie" exact component={KyriePage} />
         <Route path="/Bob" exact component={BobPage} />
-        {/* <Route path="/yang" exact component={Yang}/>  */}
         <Route path="/Nan" exact component={NanPage} />
+        <Route path="/yang" exact component={YangPage}/>
         <Route component={ErrorPage} />
       </Switch>
     </BrowserRouter>
