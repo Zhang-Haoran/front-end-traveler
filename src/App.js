@@ -16,6 +16,7 @@ function App() {
         <Route path="/kyrie" exact component={KyriePage} />
         <Route path="/Bob" exact component={BobPage} />
         {/* <Route path="/yang" exact component={Yang}/>  */}
+        <Route path="/Nan" exact component={NanPage} />
         <Route component={ErrorPage} />
       </Switch>
     </BrowserRouter>
