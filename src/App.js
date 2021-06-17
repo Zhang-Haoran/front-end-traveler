@@ -6,6 +6,7 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import HaoranPage from "./pages/HaoranPage/HaoranPage";
 import KyriePage from './pages/KyriePage/KyriePage';
 import BobPage from './pages/BobPage';
+import NanPage from "./pages/NanPage/NanPage";
 
 function App() {
   return (
