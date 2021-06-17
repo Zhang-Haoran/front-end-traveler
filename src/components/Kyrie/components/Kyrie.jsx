@@ -1,5 +1,5 @@
 import { Title } from "../styles";
 const Kyrie = () => {
-  return <Title>123321</Title>;
+  return <Title>Another Test</Title>;
 };
 export default Kyrie;
