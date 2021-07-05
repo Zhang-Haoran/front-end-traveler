@@ -14,6 +14,7 @@ export const Mask = styled.div`
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.9);`
+
 export const Container = styled.div`
     display: flex;
     justify-content: space-between;
@@ -51,8 +52,7 @@ export const NumberText = styled.div`
     justify-content: space-between;
     flex-direction: row;
     `
-export const Item = styled.div`
-   `
+    
 export const Number = styled.p`
     margin-top: 79px;
     margin-bottom: 0;

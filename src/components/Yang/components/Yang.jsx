@@ -4,7 +4,7 @@ import NoDistance from './NoDistance';
 const Yang = () => {
   return (
     <div>
-    <NoDistance />
+      <NoDistance />
     </div>
   )
 };

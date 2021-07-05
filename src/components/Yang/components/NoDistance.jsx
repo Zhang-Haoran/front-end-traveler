@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import StoneWhaleBeach from './StoneWhaleBeach';
 import { Wrap, Mask, Container, Left, Right,Text
- ,Paragrah, NumberText, Item, Number, Title } from '../styles/noDistance';
+ ,Paragrah, NumberText, Number, Title } from '../styles/noDistance';
 
 class NoDistance extends React.Component{
     render(){
@@ -10,7 +10,7 @@ class NoDistance extends React.Component{
             <Wrap>
               <Mask> 
                   <Container>
-                    <Left></Left>
+                    <Left />
                     <Right>
                         <Text>
                          No Distance is Too Far
@@ -22,22 +22,22 @@ class NoDistance extends React.Component{
                     </Right>
                   </Container>
                   <NumberText>
-                        <Item>
+                        <div>
                             <Number>102</Number>
                             <Title>Destinations</Title>
-                         </Item>
-                        <Item>
+                        </div>
+                        <div>
                             <Number>500</Number>
                             <Title>Packages</Title>
-                         </Item>
-                         <Item>
+                        </div>
+                        <div>
                             <Number>75</Number>
                             <Title>Staff members</Title>
-                         </Item>
-                         <Item>
+                        </div>
+                        <div>
                             <Number>20</Number>
                             <Title>Years of Experiences</Title>
-                         </Item>
+                        </div>
                     </NumberText>
               </Mask>
             </Wrap>

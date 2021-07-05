@@ -11,15 +11,15 @@ export const Wrap = styled.div`
 export const Stone = styled.img`
     background: url(${stonePic});
     background-repeat: no-repeat;
-    width: 33%;
+    width: 479px;
 `
 export const Beach = styled.img`
     background: url(${beachPic});
     background-repeat: no-repeat;
-    width: 33%;
+    width: 480px;
 `
 export const Whale = styled.img`
     background: url(${whale});
     background-repeat: no-repeat;
-    width: 34%;
+    width: 480px;
 `
