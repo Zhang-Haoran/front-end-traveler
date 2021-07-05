@@ -1,5 +1,11 @@
-import { Title } from "../styles";
+import React from 'react';
+import NoDistance from './NoDistance';
+
 const Yang = () => {
-  return <Title>Hello from Yang</Title>;
+  return (
+    <div>
+      <NoDistance />
+    </div>
+  )
 };
 export default Yang;
